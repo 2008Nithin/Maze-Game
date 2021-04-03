@@ -69,14 +69,10 @@ class Field {
 
   get getField(){
       let print = [];
+      console.log(this._fieldArr)
       this._fieldArr.forEach(element => {
-          print.push(element.join(''))
+         print.push(element.value.join(''))
       });
-      print.forEach(element => {
-          console.log(element)
-      })
-      console.log(print)
-      return print;
   }    
 }
 
