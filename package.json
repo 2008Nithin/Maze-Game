@@ -1,0 +1,22 @@
+{
+  "name": "maze",
+  "version": "1.0.0",
+  "description": "### The maze game is a maze that is randomly generated.",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2008Nithin/Maze-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2008Nithin/Maze-Game/issues"
+  },
+  "homepage": "https://github.com/2008Nithin/Maze-Game#readme",
+  "dependencies": {
+    "mocha": "^8.3.2"
+  }
+}
